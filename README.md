@@ -82,9 +82,9 @@ index-win.exe
 The base URL for all endpoints is http://localhost:3000.
 
 Method,Endpoint,Description
-POST,/upload,Upload a new XLSX file to the server.
-GET,/files,Retrieve a list of all uploaded files.
-GET,/file/:filename,Serve a specific file for frontend processing.
-GET,/read-state/:filename,Get the current reading progress and associated comments for a file.
-POST,/read-state/:filename,"Update the reading progress (e.g., mark a row as read) for a file."
-POST,/comment/:filename/:rowId,Add or update a comment for a specific row ID.
+1.  **POST,/upload,Upload a new XLSX file to the server.
+2.  **GET,/files,Retrieve a list of all uploaded files.
+3.  **GET,/file/:filename,Serve a specific file for frontend processing.
+4.  **GET,/read-state/:filename,Get the current reading progress and associated comments for a file.
+5.  **POST,/read-state/:filename,"Update the reading progress (e.g., mark a row as read) for a file."
+6.  **POST,/comment/:filename/:rowId,Add or update a comment for a specific row ID.
